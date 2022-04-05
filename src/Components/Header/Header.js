@@ -15,7 +15,7 @@ const Header = () => {
                             style={{ maxHeight: '100px' }}
                             navbarScroll>
                             <CustomLink className="link" to='/'> Home</CustomLink>
-                            <CustomLink className="link" to='/review'>Reviews</CustomLink>
+                            <CustomLink className="link" to='/reviews'>Reviews</CustomLink>
                             <CustomLink className="link" to='/dashboard'>Dashboard</CustomLink>
                             <CustomLink className="link" to='/blog'>Blog</CustomLink>
                             <CustomLink className="link" to='/about'>About</CustomLink>
