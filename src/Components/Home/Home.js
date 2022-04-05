@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import { img } from '../../Assets/Images/img2.png';
+import img from '../../Images/img.png';
 import Cart from '../Cart/Cart';
 import './style.css';
 const Home = () => {
