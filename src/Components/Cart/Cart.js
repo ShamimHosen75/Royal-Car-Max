@@ -9,9 +9,8 @@ const Cart = () => {
         <div>
             <Container>
                 <Row>
-                    <h1>Checking</h1>
                     {
-                        reviews.slice(0, 3).map (p=><Col md="4" sm="12">
+                        reviews.slice(0, 3).map (p =><Col md="4" sm="12">
                             <div className='cart-container text-center border border-primary'>
                                  <h5 className='text-center'>Customer Name is : {p.name}</h5><hr />
                                  <p>Customer Review : {p.review}</p>

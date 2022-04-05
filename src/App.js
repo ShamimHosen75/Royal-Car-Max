@@ -8,7 +8,6 @@ import Header from './Components/Header/Header';
 import Home from './Components/Home/Home';
 import Rechart from './Components/Rechart/Rechart';
 import Reviews from './Components/Reviews/Reviews';
-
 function App() {
   return (
     <div className="App">
