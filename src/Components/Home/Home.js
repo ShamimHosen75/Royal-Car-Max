@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
-import img from '../../Assets/Images/img.png';
+import { img } from '../../Assets/Images/img2.png';
 import Cart from '../Cart/Cart';
-
+import './style.css';
 const Home = () => {
     return (
         <div>
@@ -14,7 +14,7 @@ const Home = () => {
                             <h2 className='web-title text-primary'>Your best Choice</h2>
                         </div>
                         <div className='description-container'>
-                           <p>Zoom Rent a Car is popular in Bangladesh for quality service.We make sure a stress-free car rental experience by providing superior services that provide to our customers individual needs. Customer satisfaction by providing quality services is our mission.</p>
+                           <p>Royal CarMax is popular in Bangladesh for quality service.We make sure a stress-free car rental experience by providing superior services that provide to our customers individual needs. Customer satisfaction by providing quality services is our mission.</p>
                        </div>
                         <button className='button-design'>Live demo</button>
                     </Col>  
