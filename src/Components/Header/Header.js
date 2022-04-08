@@ -1,29 +1,36 @@
 import React from 'react';
-import { Container, Nav, Navbar, NavbarBrand } from 'react-bootstrap';
+import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import CustomLink from '../CustomLink/CustomLink';
 import './Header.css';
 const Header = () => {
     return (
         <div>
-            <NavbarBrand bg="light" expand="lg">
-                <Container fluid>
-                    <Navbar.Brand href="#"><Link className="link" to='/home'>CarMax</Link></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="navbarScroll" />
-                    <Navbar.Collapse id="navbarScroll">
-                        <Nav className="ms-auto my-2 my-lg-0"
-                            style={{ maxHeight: '100px' }}
-                            navbarScroll>
-                            <CustomLink className="link" to='/'> Home</CustomLink>
-                            <CustomLink className="link" to='/reviews'>Reviews</CustomLink>
-                            <CustomLink className="link" to='/dashboard'>Dashboard</CustomLink>
-                            <CustomLink className="link" to='/blog'>Blog</CustomLink>
-                            <CustomLink className="link" to='/about'>About</CustomLink>
-
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </NavbarBrand>
+            <Navbar bg="light" expand="lg">
+  <Container>
+    <Navbar.Brand className='fw-bold fs-3' href="#home"><div className='text-danger'>Royal CarMax</div></Navbar.Brand>
+    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Navbar.Collapse id="basic-navbar-nav">
+      <Nav className="ms-auto">
+        <Nav.Link>
+            <Link className='nav' to='/home'>Home</Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link className='nav' to='/reviews'>Reviews</Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link className='nav' to='/dashboard'>Dashboard</Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link className='nav' to='/about'>About</Link>
+        </Nav.Link>
+        <Nav.Link>
+            <Link className='nav' to='/blog'>Blog</Link>
+        </Nav.Link>
+        
+      </Nav>
+    </Navbar.Collapse>
+  </Container>
+</Navbar>
         </div>
     );
 };

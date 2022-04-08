@@ -21,17 +21,8 @@ function App() {
           <Route path='/blog' element={<Blog></Blog>}></Route>
           <Route path='/about' element={<About></About>}></Route>
           <Route path='/reviews' element={<Reviews></Reviews>}></Route>
-          <Route path='/error' element={<Error></Error>}></Route>
+          <Route path='/*' element={<Error></Error>}></Route>
         </Routes>
-        {/* <Routes>
-          <Route path='/' element={<Home></Home>}></Route>
-          <Route path='/home' element={<Home></Home>}></Route>
-          <Route path='/dashboard' element={<Rechart></Rechart>}></Route>
-          <Route path='/blog' element={<Blog></Blog>}></Route> */}
-          {/* <Route path='/about' element={<About></About>}></Route> */}
-          {/* <Route path='/review' element={<Reviews></Reviews>}></Route>
-          <Route path='*' element={<Error></Error>}></Route>
-        </Routes> */}
       </Container>
     </div>
   );

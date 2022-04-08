@@ -1,3 +1,6 @@
+.main-container{
+    max-width: 100%;
+}
 .title-container{
     margin-top: 80px;
 }
@@ -14,15 +17,14 @@
     text-align: right;
 }
 .description-container p{
- font-size: 17px;
- line-height: 25px;
+ font-size: 16px;
+ line-height: 20px;
 }
 .button-design{
-    padding: 10px 15px;
+    padding: 15px 15px;
     background-color: rgb(233, 245, 255);
     border-radius: 3px;
     border: none;
-    color: navy;
     font-size: 20px;
 }
 .review-button a{
